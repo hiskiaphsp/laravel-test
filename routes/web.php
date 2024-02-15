@@ -17,12 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('about', function() {
-    return "About Page";
-});
-
-Route::get('reporting', function() {
-    return "Reporting Features";
-});
-
 // Whatever logic to add reporting
